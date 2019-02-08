@@ -1,0 +1,32 @@
+ {
+    "name": "Google Tools",
+    "version": "1.0",
+    "description": "A simple tool designed to make navigating Google's tools easier",
+    "background": {
+      "scripts": ["backgroundOmni.js"],
+      "persistent": false
+    },
+    "omnibox": { "keyword" : "tools" },
+        "icons": {
+          "16": "images/logo.png"
+        },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/logo.png",
+        "32": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+      }
+    },
+    "icons": {
+      "16": "images/logo.png",
+      "32": "images/logo.png",
+      "48": "images/logo.png",
+      "128": "images/logo.png"
+    },
+    "permissions": [
+       "tabs"
+    ],
+    "manifest_version": 2
+}
